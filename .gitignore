@@ -1,0 +1,47 @@
+# Data files
+data/*.csv
+data/*.xlsx
+data/*.json
+
+# Model weights and checkpoints
+*.h5
+*.ckpt
+*.pth
+*.pt
+models/
+checkpoints/
+
+# Virtual environments
+venv/
+.env/
+.venv/
+env/
+
+# Python compiled files and caches
+*.pyc
+__pycache__/
+*.pyo
+*.pyd
+
+# Logs
+*.log
+logs/
+
+# Jupyter notebook checkpoints
+.ipynb_checkpoints/
+
+# Temporary and system files
+.DS_Store
+.mypy_cache/
+.pytest_cache/
+
+# Environment variables or sensitive config
+.env
+.env.local
+.secret
+
+# Ignore large files in the virtual environment, models, and libraries
+communication/Lib/site-packages/torch/lib/torch_cpu.dll
+communication/Lib/site-packages/torch/lib/dnnl.lib
+models/sentiment_model/model.safetensors
+communication/Lib/

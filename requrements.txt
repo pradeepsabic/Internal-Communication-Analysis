@@ -1,0 +1,12 @@
+ pandas 
+ spacy 
+ transformers 
+ torch 
+ gensim 
+ nltk 
+ seaborn 
+ matplotlib
+ safetensors
+ protobuf
+ scikit-learn
+ 
